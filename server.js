@@ -9,7 +9,7 @@ const apiKeys = require('./routes/apiKeys');
 const currency = require('./routes/currency');
 const activities = require('./routes/activities');
 
-const PORT = 80;
+const PORT = process.env.PORT || 8000;
 
 db.connect(function (err) {
   if (err) {
