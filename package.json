@@ -14,6 +14,7 @@
     "@mui/styles": "^5.2.0",
     "@onflow/fcl": "^1.0.0-alpha.2",
     "@onflow/types": "^0.0.5",
+    "@slider-captcha/core": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
