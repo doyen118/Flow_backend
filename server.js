@@ -23,7 +23,10 @@ db.connect(function (err) {
 });
 
 const app = express();
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
 app.use(express.json());
 app.get('/', (_, res) => {
   res.send('pong');
