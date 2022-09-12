@@ -29,7 +29,7 @@ app.use(cors({
 }));
 app.use(express.json());
 app.get('/', (_, res) => {
-  res.send('pong');
+  res.send('update');
 });
 
 app.use(function(req, res, next) {
